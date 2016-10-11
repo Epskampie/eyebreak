@@ -15,8 +15,9 @@
 
             const createReminder = () => {
                 setTimeout(() => {
-                    new Notification('👀 break', {
-                        requireInteraction: true
+                    new Notification('eye break', {
+                        requireInteraction: false,
+                        icon: 'https://i.imgur.com/LD0N90C.png',
                     });
 
                     const now = new Date();
